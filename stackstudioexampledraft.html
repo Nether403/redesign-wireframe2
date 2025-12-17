@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StackStudio - AI Planning Platform Wireframe</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Wireframe Specific Styling - Keeping it "Blueprint" style */
+        body { font-family: 'Courier New', Courier, monospace; background-color: #f4f4f5; color: #18181b; }
+        .wireframe-box { border: 2px dashed #a1a1aa; background-color: #ffffff; position: relative; }
+        .wireframe-label { position: absolute; top: -10px; left: 10px; background: #e4e4e7; padding: 2px 8px; font-size: 0.75rem; font-weight: bold; color: #52525b; border: 1px solid #a1a1aa; }
+        .note { color: #059669; font-size: 0.85rem; margin-top: 0.5rem; border-left: 2px solid #059669; padding-left: 0.5rem; font-family: sans-serif; }
+    </style>
+</head>
+<body class="p-4 md:p-8 max-w-7xl mx-auto">
+
+    <!-- STRATEGIC HEADER -->
+    <header class="wireframe-box p-6 mb-8 flex justify-between items-center">
+        <span class="wireframe-label">GLOBAL NAVIGATION</span>
+        <div class="font-bold text-2xl tracking-tighter">StackStudio <span class="text-xs font-normal opacity-50 block">Part of Realm101</span></div>
+        
+        <nav class="hidden md:flex gap-8 text-sm font-semibold">
+            <a href="#" class="hover:underline">The Suite (Tools)</a>
+            <a href="#" class="hover:underline">The Methodology</a>
+            <a href="#" class="hover:underline">Pricing</a>
+            <a href="#" class="hover:underline">Resources</a>
+        </nav>
+
+        <div class="flex gap-4">
+            <button class="border border-black px-4 py-2 text-sm">Log In</button>
+            <button class="bg-black text-white px-4 py-2 text-sm">Start Building Free</button>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="wireframe-box p-12 mb-8 text-center grid place-items-center relative overflow-hidden">
+        <span class="wireframe-label">HERO / ABOVE THE FOLD</span>
+        
+        <!-- Pre-header for SEO/Positioning -->
+        <span class="bg-gray-200 px-3 py-1 text-xs font-bold uppercase tracking-wide mb-6 rounded-full">
+            The AI Planning Platform for Startups
+        </span>
+
+        <!-- H1: High Impact, Benefit Driven -->
+        <h1 class="text-4xl md:text-6xl font-black max-w-4xl mb-6 leading-tight">
+            Plan Smarter. <br>
+            Build Faster.
+        </h1>
+
+        <!-- Subheader: Addressing the Pain Point (42% failure rate) -->
+        <p class="text-lg md:text-xl max-w-2xl mb-10 leading-relaxed opacity-80">
+            42% of startups fail because they build the wrong thing. StackStudio gives you the <strong>AI Product Manager</strong>, <strong>CTO</strong>, and <strong>Security Lead</strong> you need to validate your idea <em>before</em> you write a single line of code.
+        </p>
+
+        <!-- CTAs -->
+        <div class="flex flex-col md:flex-row gap-4 mb-12">
+            <button class="bg-black text-white text-lg px-8 py-4 font-bold shadow-lg hover:translate-y-1 transition-transform">
+                Start Your Project (Free)
+            </button>
+            <button class="border-2 border-black text-lg px-8 py-4 font-bold hover:bg-gray-100 transition-colors">
+                See the "Golden Path"
+            </button>
+        </div>
+
+        <!-- Social Proof / Trust Bar -->
+        <div class="border-t border-dashed border-gray-400 pt-6 w-full max-w-3xl">
+            <p class="text-xs font-bold uppercase tracking-widest mb-4 opacity-50">Powering the next generation of builders</p>
+            <div class="flex justify-between opacity-60 font-serif italic">
+                <span>[Logo Placeholder]</span>
+                <span>[Logo Placeholder]</span>
+                <span>[Logo Placeholder]</span>
+                <span>[Logo Placeholder]</span>
+            </div>
+        </div>
+
+        <!-- Strategic Note for Client -->
+        <div class="note text-left w-full mt-8">
+            <strong>Strategy Note:</strong> We avoid mentioning "Dev Tools" here. We focus entirely on "Risk Reduction" and "Planning." The 42% statistic creates immediate urgency.
+        </div>
+    </section>
+
+
+    <!-- PHILOSOPHY SECTION (The Pivot) -->
+    <section class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
+        <!-- The Problem -->
+        <div class="wireframe-box p-8 bg-gray-50">
+            <span class="wireframe-label">THE PROBLEM</span>
+            <h3 class="text-xl font-bold mb-4">The "Swiss Army Knife" Problem</h3>
+            <p class="mb-4">Most developer platforms try to do everything poorly. They are cluttered, confusing, and full of friction.</p>
+            <ul class="list-disc pl-5 space-y-2 text-sm opacity-80">
+                <li>Endless configuration</li>
+                <li>Decision paralysis ("Which database?")</li>
+                <li>Building on "Vaporware"</li>
+            </ul>
+        </div>
+
+        <!-- The Solution -->
+        <div class="wireframe-box p-8 border-black border-2">
+            <span class="wireframe-label">OUR PHILOSOPHY</span>
+            <h3 class="text-xl font-bold mb-4">The "Chef's Knife" Solution</h3>
+            <p class="mb-4">We don't do everything. We do the <strong>planning</strong> perfectly. We provide opinionated, sharp tools for specific stages of your journey.</p>
+            <ul class="list-disc pl-5 space-y-2 text-sm font-bold">
+                <li>Ruthlessly Opinionated Blueprints</li>
+                <li>Data-Backed Validation</li>
+                <li>Automated Due Diligence</li>
+            </ul>
+        </div>
+    </section>
+
+
+    <!-- THE JOURNEY (How It Works) -->
+    <section class="wireframe-box p-8 mb-8">
+        <span class="wireframe-label">THE UNIFIED JOURNEY (How it Works)</span>
+        
+        <div class="text-center mb-12">
+            <h2 class="text-3xl font-bold mb-4">From Napkin Sketch to Launch</h2>
+            <p class="max-w-xl mx-auto opacity-70">Stop switching contexts. StackStudio connects the fragmented pieces of product development into a single, intelligent pipeline.</p>
+        </div>
+
+        <!-- The 4-Step Flow -->
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-4 relative">
+            
+            <!-- Step 1 -->
+            <div class="border p-6 text-center hover:bg-gray-50 transition">
+                <div class="w-12 h-12 bg-gray-200 rounded-full mx-auto mb-4 flex items-center justify-center font-bold">1</div>
+                <h4 class="font-bold text-lg mb-2">DISCOVER</h4>
+                <p class="text-sm opacity-80 mb-4">Identify market gaps and validate feasibility.</p>
+                <div class="bg-black text-white text-xs py-1 px-2 inline-block">Powered by <strong>Unbuilt</strong></div>
+            </div>
+
+            <!-- Arrow (Hidden on mobile) -->
+            <div class="hidden md:flex items-center justify-center text-2xl opacity-30">➝</div>
+
+            <!-- Step 2 -->
+            <div class="border p-6 text-center hover:bg-gray-50 transition">
+                <div class="w-12 h-12 bg-gray-200 rounded-full mx-auto mb-4 flex items-center justify-center font-bold">2</div>
+                <h4 class="font-bold text-lg mb-2">PLAN</h4>
+                <p class="text-sm opacity-80 mb-4">Generate architectural blueprints & tech stacks.</p>
+                <div class="bg-black text-white text-xs py-1 px-2 inline-block">Powered by <strong>StackFast</strong></div>
+            </div>
+
+            <!-- Arrow -->
+            <div class="hidden md:flex items-center justify-center text-2xl opacity-30">➝</div>
+
+            <!-- Step 3 -->
+            <div class="border p-6 text-center hover:bg-gray-50 transition">
+                <div class="w-12 h-12 bg-gray-200 rounded-full mx-auto mb-4 flex items-center justify-center font-bold">3</div>
+                <h4 class="font-bold text-lg mb-2">EVALUATE</h4>
+                <p class="text-sm opacity-80 mb-4">Audit dependencies for health & security.</p>
+                <div class="bg-black text-white text-xs py-1 px-2 inline-block">Powered by <strong>RepoRadar</strong></div>
+            </div>
+            
+             <!-- Arrow -->
+             <div class="hidden md:flex items-center justify-center text-2xl opacity-30">➝</div>
+
+             <!-- Step 4 -->
+            <div class="border p-6 text-center hover:bg-gray-50 transition">
+                <div class="w-12 h-12 bg-gray-200 rounded-full mx-auto mb-4 flex items-center justify-center font-bold">4</div>
+                <h4 class="font-bold text-lg mb-2">EXECUTE</h4>
+                <p class="text-sm opacity-80 mb-4">Deploy with AI-monitored build logs.</p>
+                <div class="bg-black text-white text-xs py-1 px-2 inline-block">Powered by <strong>GitShip</strong></div>
+            </div>
+
+        </div>
+
+        <div class="note mt-8">
+            <strong>Strategy Note:</strong> This visualizes the "Golden Path" mentioned in your strategy. It implicitly explains *why* you have different tools—they are different stations on the same assembly line.
+        </div>
+    </section>
+
+
+    <!-- DEEP DIVE: THE TOOLS -->
+    <section class="mb-8 space-y-8">
+        <h2 class="text-3xl font-bold mb-8 text-center">The Intelligent Suite</h2>
+
+        <!-- Tool 1: Unbuilt -->
+        <div class="wireframe-box p-8 flex flex-col md:flex-row gap-8 items-center">
+            <span class="wireframe-label">TOOL: UNBUILT</span>
+            <div class="w-full md:w-1/3 h-48 bg-gray-200 flex items-center justify-center text-gray-400 font-bold border-2 border-dashed">
+                [UI Preview: Market Gap Graph]
+            </div>
+            <div class="w-full md:w-2/3">
+                <h3 class="text-2xl font-bold mb-2">Unbuilt: The Opportunity Finder</h3>
+                <p class="text-lg mb-4">Your idea might be good, but does the market want it?</p>
+                <p class="text-sm opacity-70 mb-6">Unbuilt uses AI to scan market trends and consumer intent, assigning your startup idea a "Feasibility Score" and a 4-phase roadmap before you waste money building it.</p>
+                <ul class="grid grid-cols-2 gap-2 text-sm font-bold mb-6">
+                    <li>✓ Market Gap Analysis</li>
+                    <li>✓ Competitor Mapping</li>
+                    <li>✓ Innovation Score</li>
+                    <li>✓ "Unbuilt" Opportunities Feed</li>
+                </ul>
+                <a href="#" class="text-blue-600 font-bold hover:underline">Validate an idea &rarr;</a>
+            </div>
+        </div>
+
+        <!-- Tool 2: StackFast -->
+        <div class="wireframe-box p-8 flex flex-col md:flex-row-reverse gap-8 items-center">
+            <span class="wireframe-label">TOOL: STACKFAST</span>
+            <div class="w-full md:w-1/3 h-48 bg-gray-200 flex items-center justify-center text-gray-400 font-bold border-2 border-dashed">
+                [UI Preview: Stack Blueprint]
+            </div>
+            <div class="w-full md:w-2/3 text-right md:text-left"> <!-- Text alignment flip for variety -->
+                <h3 class="text-2xl font-bold mb-2">StackFast: The Architecture Engine</h3>
+                <p class="text-lg mb-4">Stop debating frameworks. Start building.</p>
+                <p class="text-sm opacity-70 mb-6">Describe your product in plain English. StackFast generates a complete technical blueprint, selects the perfect tools (with compatibility scores), and explains <em>why</em> they work together.</p>
+                <ul class="grid grid-cols-2 gap-2 text-sm font-bold mb-6">
+                    <li>✓ AI Stack Recommendations</li>
+                    <li>✓ Compatibility "Harmony Scores"</li>
+                    <li>✓ One-Click Blueprints</li>
+                    <li>✓ Cost Estimation</li>
+                </ul>
+                <a href="#" class="text-blue-600 font-bold hover:underline">Generate a Blueprint &rarr;</a>
+            </div>
+        </div>
+
+         <!-- Tool 3: RepoRadar -->
+         <div class="wireframe-box p-8 flex flex-col md:flex-row gap-8 items-center">
+            <span class="wireframe-label">TOOL: REPORADAR</span>
+            <div class="w-full md:w-1/3 h-48 bg-gray-200 flex items-center justify-center text-gray-400 font-bold border-2 border-dashed">
+                [UI Preview: Health Score Card]
+            </div>
+            <div class="w-full md:w-2/3">
+                <h3 class="text-2xl font-bold mb-2">RepoRadar: Technical Due Diligence</h3>
+                <p class="text-lg mb-4">Never build your business on abandonware.</p>
+                <p class="text-sm opacity-70 mb-6">Simply paste a GitHub URL. RepoRadar's AI analyzes code velocity, security vulnerabilities, and community health to give you a "Buy/Sell" rating on any open-source dependency.</p>
+                <a href="#" class="text-blue-600 font-bold hover:underline">Analyze a Repo &rarr;</a>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- SEO & CONTENT SECTION (The "Hub") -->
+    <section class="wireframe-box p-8 mb-8 bg-gray-50">
+        <span class="wireframe-label">SEO / CONTENT HUB</span>
+        <div class="text-center mb-8">
+            <h2 class="font-bold text-2xl">Resources for Builders</h2>
+            <p class="opacity-60 text-sm">Targeting "Planning" and "Validation" keywords.</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <article class="border bg-white p-4">
+                <div class="text-xs font-bold text-gray-400 mb-2">GUIDE</div>
+                <h4 class="font-bold mb-2">How to Validate a SaaS Idea in 24 Hours</h4>
+                <p class="text-xs">A step-by-step framework using Unbuilt to find market gaps.</p>
+            </article>
+            <article class="border bg-white p-4">
+                <div class="text-xs font-bold text-gray-400 mb-2">CASE STUDY</div>
+                <h4 class="font-bold mb-2">Why We Switched from React to Vue (Harmony Scores)</h4>
+                <p class="text-xs">How StackFast identified a critical compatibility bottleneck.</p>
+            </article>
+            <article class="border bg-white p-4">
+                <div class="text-xs font-bold text-gray-400 mb-2">ANALYSIS</div>
+                <h4 class="font-bold mb-2">The 2025 Open Source Risk Report</h4>
+                <p class="text-xs">Data from RepoRadar on the most abandoned libraries of the year.</p>
+            </article>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="wireframe-box p-8 bg-black text-white">
+        <span class="wireframe-label text-white border-white">FOOTER</span>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-sm">
+            <div>
+                <h5 class="font-bold mb-4 text-gray-400">STACKSTUDIO</h5>
+                <ul class="space-y-2">
+                    <li><a href="#">About Realm101</a></li>
+                    <li><a href="#">Our Philosophy</a></li>
+                    <li><a href="#">Careers</a></li>
+                </ul>
+            </div>
+            <div>
+                <h5 class="font-bold mb-4 text-gray-400">TOOLS</h5>
+                <ul class="space-y-2">
+                    <li><a href="#">Unbuilt (Discovery)</a></li>
+                    <li><a href="#">StackFast (Planning)</a></li>
+                    <li><a href="#">RepoRadar (Evaluation)</a></li>
+                    <li><a href="#">VentureClone (Strategy)</a></li>
+                </ul>
+            </div>
+            <div>
+                <h5 class="font-bold mb-4 text-gray-400">LEGAL</h5>
+                <ul class="space-y-2">
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </div>
+            <div class="col-span-2 md:col-span-1">
+                <h5 class="font-bold mb-4 text-gray-400">NEWSLETTER</h5>
+                <p class="text-xs opacity-60 mb-4">Get the latest stack trends and market gaps delivered weekly.</p>
+                <div class="flex">
+                    <input type="email" placeholder="Email address" class="w-full px-2 py-1 text-black">
+                    <button class="bg-gray-700 px-3 py-1">Join</button>
+                </div>
+            </div>
+        </div>
+        <div class="mt-8 pt-8 border-t border-gray-800 text-center text-xs opacity-40">
+            &copy; 2025 Realm101. All rights reserved. StackStudio is a trademark of Realm101.
+        </div>
+    </footer>
+
+</body>
+</html>
